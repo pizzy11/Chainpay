@@ -3,3 +3,11 @@
     { "source": "/((?!api/).*)", "destination": "/index.html" }
   ]
 }
+{
+  "root": "chainpay-/chainpay",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
+}
