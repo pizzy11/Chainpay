@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import toast from 'react-hot-toast'
 import { useAuth, PLANS } from '../context/AuthContext'
-import { getReferralStats, getEarningsSummary } from '../../lib/referrals'
+import { getReferralStats, getEarningsSummary } from '../lib/referrals'
 import { Logo, Spinner } from '../components/UI'
 
 export default function AccountPage() {
