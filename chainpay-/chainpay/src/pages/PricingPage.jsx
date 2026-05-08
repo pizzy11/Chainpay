@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import toast from 'react-hot-toast'
 import { useAuth, PLANS } from '../../context/AuthContext'
-import { Logo } from '../../components/UI'
+import { Logo } from '../components/UI'
 
 const PLAN_ORDER = ['free', 'pro', 'business']
 
