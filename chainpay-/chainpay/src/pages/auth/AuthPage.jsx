@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import toast from 'react-hot-toast'
-import { useAuth } from '../context/AuthContext'
-import { Logo, Btn, Field, Input } from '../components/UI'
+import { useAuth } from './context/AuthContext'
+import { Logo, Btn, Field, Input } from './components/UI'
 
 export default function AuthPage() {
   const navigate = useNavigate()
