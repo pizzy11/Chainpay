@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import toast from 'react-hot-toast'
-import { createInvoice } from '../lib/supabase'
-import { sendInvoiceEmail } from '../lib/email'
+import { createInvoice } from './lib/supabase'
+import { sendInvoiceEmail } from './lib/email'
 import {
   Logo, Field, Input, Textarea, Btn, SectionTitle,
   CRYPTO_OPTIONS, generateInvoiceNumber, formatCurrency,
-} from '../components/UI'
+} from './components/UI'
 
 const initForm = () => ({
   invoice_number: generateInvoiceNumber(),
