@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { useAuth } from '../context/AuthContext'
-import { getInvoices } from '../lib/supabase'
-import { Logo, Badge, Spinner, formatDate, formatCurrency, CRYPTO_OPTIONS } from '../components/UI'
+import { useAuth } from './context/AuthContext'
+import { getInvoices } from './lib/supabase'
+import { Logo, Badge, Spinner, formatDate, formatCurrency, CRYPTO_OPTIONS } from './components/UI'
 
 export default function Dashboard() {
   const navigate = useNavigate()
