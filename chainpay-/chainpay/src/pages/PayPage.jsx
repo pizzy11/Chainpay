@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react'
 import { useParams, useSearchParams } from 'react-router-dom'
 import toast from 'react-hot-toast'
 import { getInvoiceByNumber, markInvoicePaid } from '../lib/supabase'
-import { sendPaymentConfirmationEmail } from '../lib/email'
-import { Logo, Badge, Spinner, Card, formatDate, formatCurrency, CRYPTO_OPTIONS } from '../components/UI'
+import { sendPaymentConfirmationEmail } from './lib/email'
+import { Logo, Badge, Spinner, Card, formatDate, formatCurrency, CRYPTO_OPTIONS } from './components/UI'
 
 // Demo invoice for when Supabase isn't connected
 const DEMO_INVOICE = {
